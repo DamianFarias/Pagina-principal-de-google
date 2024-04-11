@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+    background-image: url("https://images6.alphacoders.com/655/655099.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}   
+
+header {
+    width: 100vw;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    align-items: center;
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: white;
+    padding-right: 8px;
+    margin-right: 8px;
+    font-size: 1.5rem;
+    display: flex;
+} 
+
+nav .nav-right-section li:hover {
+    border: solid 1px white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3WNhj4NqCXSuFE2z0NZR2-Pzbt7tS08FUON-Y6gARx4fwhH3o");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+nav .nav-right-section .search-labs {
+    background-image: url("https://cdn4.iconfinder.com/data/icons/laboratory-16/24/_search_lab_search_find_magnifier_scan_lab_laboratory_experiment-512.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 12px;
+    height: 26px;
+}
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    text-align: center;
+}
+
+main .main-logo {
+    margin: 16px 16px -132px 16px
+}
+
+main .main-logo img {
+    width: 400px;
+}
+
+main .main-input {
+    width: 60vh;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    height: 40px;
+}
+
+main .main-input-container {
+    width: 60vh;
+    border-radius: 100px;
+    border: 1px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+main .main-input input {
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+main .main-input input::placeholder {
+    color: white;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url("https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-input .cam-icon {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/028/766/357/non_2x/google-camera-lens-icon-symbol-free-png.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 12px;
+}
+
+main .main-buttons {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 5px;
+    padding: 0 16px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+main .main-buttons button:hover {
+    border: 1px #5f6368;
+    box-shadow: 1px 1px 1px whitesmoke; 
+}
+
+/* .search-icon {
+    background-image: url(../Imagenes/lupa.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+
+}
+
+.micro-icon {
+    background-image: url(../Imagenes/microfono.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+
+}
+
+.cam-icon {
+    background-image: url(../Imagenes/camarita.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+
+} */
